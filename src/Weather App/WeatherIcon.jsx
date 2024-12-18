@@ -14,7 +14,7 @@ function WeatherIcon({ temp }) {
       <img id="clear" src={temp > 0 && temp <= 10 ? windy : ""} />
       <img id="clear" src={temp > 10 && temp <= 20 ? clouds : ""} />
       <img id="clear" src={temp > 20 && temp <= 30 ? partysunny : ""} />
-      <img src={temp > 30 && temp <= 40 ? hot : ""} />
+      <img id="clear" src={temp > 30 && temp <= 40 ? hot : ""} />
       <img id="clear" src={temp >= 41 ? veryhot : ""} />
     </div>
   );

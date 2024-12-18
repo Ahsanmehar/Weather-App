@@ -5,7 +5,7 @@ import "./WeatherInfo.css";
 
 function WeatherInfo() {
   let [weather, setWeather] = useState({
-    temp: 16,
+    temp: 31,
     city: "Lahore",
     country: "PK",
     humidity: 35,
@@ -14,7 +14,6 @@ function WeatherInfo() {
 
   let updateResult = (result) => {
     setWeather(result);
-    console.log(weather);
   };
 
   return (
