@@ -1,0 +1,45 @@
+#final {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 10px;
+}
+
+#clear {
+  width: 40%;
+}
+
+#weather-top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#temp {
+  font-size: 67px;
+  font-weight: 400;
+  color: white;
+  line-height: 1;
+}
+
+#temp span {
+  font-size: 50px;
+}
+
+#city {
+  font-size: 40px;
+  font-weight: 400;
+  color: white;
+  /* line-height: 1; */
+}
+
+#weather-btm {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

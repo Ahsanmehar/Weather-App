@@ -1,0 +1,10 @@
+#weather-card {
+    width: 460px;
+    min-height: 520px;
+    background: linear-gradient(120deg,#06f3b7, #575b8c);
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px 25px;
+  }

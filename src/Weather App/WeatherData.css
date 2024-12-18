@@ -1,0 +1,24 @@
+#weather-btm {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  color: white;
+}
+
+#left img {
+  width: 40px;
+  height: 33px;
+  margin-top: 10px;
+}
+
+#right p:nth-child(1) {
+  font-size: 28px;
+  line-height: 1;
+  margin-bottom: 3px;
+}
+
+#right p:nth-child(2) {
+  font-size: 16px;
+  line-height: 1;
+}
