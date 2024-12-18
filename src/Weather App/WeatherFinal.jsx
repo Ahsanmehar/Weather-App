@@ -7,9 +7,7 @@ function WeatherFinal({ weather }) {
 
   return (
     <div id="final">
-      <WeatherIcon temp={weather.temp}/>
-      {/* <img src={icon} alt="" /> */}
-      {/* <img src={weather.temp > 15 ? icon : false} id="clear"/> */}
+      <WeatherIcon temp={weather.temp} />
       <div id="weather-top">
         <h1 id="temp">
           {weather.temp}°<span>C</span>
