@@ -8,10 +8,6 @@
   margin-top: 10px;
 }
 
-#clear {
-  width: 40%;
-}
-
 #weather-top {
   display: flex;
   align-items: center;
