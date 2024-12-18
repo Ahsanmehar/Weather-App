@@ -21,7 +21,7 @@ form button {
   outline: none;
   padding: 17px 19px;
   border-radius: 50%;
-  background-color: white;
+  background-color: red;
   cursor: pointer;
   color: rgba(0, 0, 0, 0.5);
 }
